@@ -79,9 +79,9 @@ export default class ReactPanZoom extends React.PureComponent<IReactPanZoomProps
     if (this.panWrapper) {
       this.panWrapper.style.cursor = "move";
     }
-    e.stopPropagation();
-    e.nativeEvent.stopImmediatePropagation();
-    e.preventDefault();
+    // e.stopPropagation();
+    // e.nativeEvent.stopImmediatePropagation();
+    // e.preventDefault();
   };
 
   public componentWillReceiveProps(nextProps: IReactPanZoomProps) {
